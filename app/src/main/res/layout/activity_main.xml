@@ -24,6 +24,8 @@
             android:id="@+id/txtUsuario"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:drawableLeft="@drawable/ic_per_b"
             android:hint="Usuario" />
     </android.support.design.widget.TextInputLayout>
 
@@ -35,6 +37,8 @@
             android:id="@+id/txtPassword"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:inputType="textPersonName|textPassword"
+            android:drawableLeft="@drawable/ic_lock_b"
             android:hint="Contraseña" />
     </android.support.design.widget.TextInputLayout>
 
